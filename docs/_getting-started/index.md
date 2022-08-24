@@ -71,7 +71,7 @@ geth account new
 
 This returns a prompt for a password. Once provided, a new account will be created and added to the 
 default keystore (`/datadir/keystore`). A custom keystore can also be provided by passing `--keystore <path>`. 
-In this tutorial the keys will be stored in a new data directory `geth-tutorial`. Create that diredctory, then run:
+In this tutorial the keys will be stored in a new data directory `geth-tutorial`. Create that directory, then run:
 
 ```sh
 geth account new --keystore geth-tutorial/keystore
